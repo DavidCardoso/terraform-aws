@@ -1,3 +1,5 @@
+# main default variables
+
 variable "aws_version" {
   default = "1.7"
 }

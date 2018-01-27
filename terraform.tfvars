@@ -1,3 +1,5 @@
+# todo: not working, see issue: https://github.com/hashicorp/terraform/issues/2659
+
 # var.aws_version
 aws_version = "1.7"
 
@@ -9,17 +11,6 @@ aws_credentials = "$HOME/.aws/credentials"
 
 # var.aws_region
 aws_region = "us-west-2"
-
-# var.aws_vpc[]
-aws_vpc = [
-  "vpc-3a852843"
-]
-
-# var.aws_subnet[]
-aws_subnet = {
-  pub = "subnet-35f82e6f"
-  pvt = "subnet-d7fa2c8d"
-}
 
 # var.aws_ami[]
 aws_ami = {
