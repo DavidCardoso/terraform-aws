@@ -28,14 +28,9 @@ variable "aws_ami" {
 }
 
 variable "aws_vpc" {
-  default = [
-    "vpc-3a852843"
-  ]
+  default = []
 }
 
 variable "aws_subnet" {
-  default = {
-    pub = "subnet-35f82e6f"
-    pvt = "subnet-d7fa2c8d"
-  }
+  default = {}
 }
